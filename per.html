@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Someone Special ❤️</title>
+<style>
+body {
+  text-align: center;
+  background-color: #ffdde1;
+  font-family: Arial;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Will you stay with me forever? 💖</h1>
+
+<button onclick="yes()">YES 💕</button>
+<button onmouseover="moveButton(this)">NO 😜</button>
+
+<script>
+function yes() {
+  alert("Yayyyy! I love you ❤️");
+}
+
+function moveButton(btn) {
+  btn.style.position = "absolute";
+  btn.style.top = Math.random() * window.innerHeight + "px";
+  btn.style.left = Math.random() * window.innerWidth + "px";
+}
+</script>
+
+</body>
+</html>
